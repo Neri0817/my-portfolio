@@ -1,0 +1,7 @@
+@import url("./components/Home/home.css");
+@import url("./components/Header/header.css");
+@import url("./components/Footer/footer.css");
+
+body {
+  background-color: black;
+}
