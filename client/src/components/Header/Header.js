@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
+import logo from "../../images/primerno-logo.jpg";
+
 export const Header = () => {
   return (
     <header>
-      <div className="header-logo-container"></div>
+      <div className="header-logo-container">
+        <img src={logo} alt="Logo" />
+      </div>
       <div className="header-container">
         <nav className="header-container-nav">
           <ul className="header-container-nav-list">

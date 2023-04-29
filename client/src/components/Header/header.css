@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-logo-container {
+  width: 150px;
+}
+
+.header-logo-container img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.header-container {
+  width: 100%;
+}
+
+.header-container-nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.header-container-nav-list li {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.header-container-nav-list li a {
+  text-decoration: none;
+  color: white;
+}
