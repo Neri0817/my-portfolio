@@ -30,6 +30,12 @@ export const Header = () => {
           </ul>
         </nav>
       </div>
+      <div className="header-download-container">
+        <a href="/neri-cv.pdf" download>
+          <i className="fa-regular fa-circle-down fa-beat-fade"></i>
+          Download CV
+        </a>
+      </div>
     </header>
   );
 };
