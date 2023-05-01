@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
 header {
   display: flex;
   justify-content: space-between;
@@ -18,6 +20,7 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header-container-nav-list {
@@ -49,7 +52,7 @@ header {
   content: "";
   background: #fff;
   opacity: 0.3;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .header-container-nav-list a:hover:before {
