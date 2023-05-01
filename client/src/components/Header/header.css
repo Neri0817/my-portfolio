@@ -6,7 +6,7 @@ header {
 }
 
 .header-logo-container {
-  width: 150px;
+  width: 220px;
 }
 
 .header-logo-container img {
@@ -16,20 +16,42 @@ header {
 
 .header-container {
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .header-container-nav-list {
   display: flex;
-  justify-content: flex-end;
   list-style: none;
 }
 
 .header-container-nav-list li {
-  margin: 0 10px;
   font-size: 18px;
 }
 
 .header-container-nav-list li a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.header-container-nav-list a:before {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  content: "";
+  background: #fff;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.header-container-nav-list a:hover:before {
+  width: 100%;
 }
