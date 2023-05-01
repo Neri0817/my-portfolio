@@ -1,6 +1,12 @@
 footer {
   background-color: black;
-  padding: 50px;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-container-social-list {
@@ -66,4 +72,20 @@ footer {
 
 .footer-container-social-list li:hover a::before {
   height: 100%;
+}
+
+.footer-container-logo {
+  width: 500px;
+}
+
+.footer-container-logo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.footer-info-container {
+  color: #fff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  text-align: center;
 }
