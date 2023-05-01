@@ -1,0 +1,69 @@
+footer {
+  background-color: black;
+  padding: 50px;
+}
+
+.footer-container-social-list {
+  position: relative;
+  display: flex;
+}
+.footer-container-social-list li {
+  position: relative;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.footer-container-social-list li a {
+  text-decoration: none;
+}
+.footer-container-social-list li a .fa-brands {
+  font-size: 4em;
+  color: #222;
+}
+.footer-container-social-list li a::before {
+  font-family: "FontAwesome";
+  position: absolute;
+  top: -6.1px;
+  left: -0.1px;
+  font-size: 4em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+
+.footer-container-social-list li:nth-child(1) a::before {
+  content: "\f16d";
+  background-image: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 4px solid #dc2743;
+}
+
+.footer-container-social-list li:nth-child(2) a::before {
+  content: "\f09b";
+  color: #b2b2b2;
+  border-bottom: 4px solid #b2b2b2;
+}
+
+.footer-container-social-list li:nth-child(3) a::before {
+  content: "\f082";
+  color: #263860;
+  border-bottom: 4px solid #263860;
+}
+
+.footer-container-social-list li:nth-child(4) a::before {
+  content: "\f08c";
+  color: #0961b8;
+  border-bottom: 4px solid #0961b8;
+}
+
+.footer-container-social-list li:hover a::before {
+  height: 100%;
+}

@@ -2,3 +2,12 @@
 @import url("./components/Footer/footer.css");
 @import url("./components/Home/home.css");
 @import url("./components/About/about.css");
+
+main {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
