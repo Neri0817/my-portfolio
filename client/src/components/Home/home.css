@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.home-container {
+.home-background-container {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -12,4 +12,9 @@
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.home-container-profile-img {
+  background-image: url("../../images/neri-img.jpg") no-repeat center;
+  background-size: cover;
 }
