@@ -29,7 +29,7 @@ footer {
 .footer-container-social-list li a::before {
   font-family: "FontAwesome";
   position: absolute;
-  top: -6.1px;
+  top: 0.5px;
   left: -0.1px;
   font-size: 4em;
   height: 0;
