@@ -14,7 +14,18 @@
   z-index: -1;
 }
 
+.home-container-profile {
+  width: 400px;
+  height: 400px;
+}
+
 .home-container-profile-img {
-  background-image: url("../../images/neri-img.jpg") no-repeat center;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/neri-img.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
