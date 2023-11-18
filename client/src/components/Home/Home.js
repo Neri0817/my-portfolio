@@ -8,9 +8,12 @@ export const Home = () => {
         </video>
       </div>
       <div className="home-container">
-        <div className="home-container-context"></div>
         <div className="home-container-profile">
           <div className="home-container-profile-img"></div>
+        </div>
+        <div className="home-container-context-introduction">
+          <h1>Hi, I'm Neri Mehmedova</h1>
+          <h2>Passionate Front-End Developer</h2>
         </div>
       </div>
     </main>
