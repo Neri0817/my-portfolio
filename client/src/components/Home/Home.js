@@ -13,7 +13,7 @@ export const Home = () => {
         </div>
         <div className="home-container-context-introduction">
           <h1>Hi, I'm Neri Mehmedova</h1>
-          <h2>Passionate Front-End Developer</h2>
+          <h2>Passionate Front-End Developer Building User-Centric Websites</h2>
         </div>
       </div>
     </main>
